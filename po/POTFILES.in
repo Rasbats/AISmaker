@@ -1,0 +1,6 @@
+src/AISmaker_pi.cpp
+src/AISmaker_pi.h
+src/AISmakergui.cpp
+src/AISmakergui.h
+src/AISmakergui_impl.cpp
+src/AISmakergui_impl.h

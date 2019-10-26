@@ -1,0 +1,816 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: opencpn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-01 07:56+0100\n"
+"PO-Revision-Date: 2019-05-03 16:57\n"
+"Last-Translator: Pavel Kalian (nohal)\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: opencpn\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /plugins/calculator_pi/po/calculator_pi.pot\n"
+
+#: src/calculator_pi.cpp:104
+msgid "calculator"
+msgstr "calculette"
+
+#: src/calculator_pi.cpp:108 src/calculator_pi.cpp:184 src/calculatorgui.h:72
+#: src/calculatorgui.h:440
+msgid "Calculator"
+msgstr "Calculette"
+
+#: src/calculator_pi.cpp:189
+msgid "Calculator Plugin"
+msgstr "Complément Calculette"
+
+#: src/calculator_pi.cpp:194
+msgid "This is a light weight yet powerful calculator plugin for OpenCPN.\n"
+"  Would you like to know your hull speed?"
+msgstr "C'est un complément léger mais capable de calculs performants pour OpenCPN.\n\n"
+" Par exemple : Voulez vous connaître la vitesse de votre coque ?"
+
+#: src/calculator_pi.cpp:368
+msgid "Calculator Preferences"
+msgstr "Préférences"
+
+#: src/calculatorgui_impl.h:64 src/calculatorgui.h:131
+msgid "Calculator preferences"
+msgstr "Préférences"
+
+#: src/calculatorgui_impl.h:70
+msgid "Help!!!!"
+msgstr "Aide !!!!"
+
+#: src/calculatorgui_impl.h:76
+msgid "Degree Conversions"
+msgstr "Conversions des degrés"
+
+#: src/calculatorgui_impl.h:91
+msgid "Extra Functions"
+msgstr "Fonctions supplémentaires"
+
+#: src/calculatorgui_impl.cpp:88 src/calculatorgui.cpp:635
+#: src/calculatorgui.cpp:647
+msgid "All"
+msgstr "Tout"
+
+#: src/calculatorgui_impl.cpp:137
+msgid "LWL = Length of water line\n"
+"Vhull = Hull speed"
+msgstr "LWL = Longueur de flottaison\n"
+"Vhull = Vitesse de coque"
+
+#: src/calculatorgui_impl.cpp:141
+msgid "fetch = distance over water that the wind blows"
+msgstr "fetch = Distance sur l'eau parcourue par le vent"
+
+#: src/calculatorgui_impl.cpp:145
+msgid "fetch = distance over water that the wind blows\n"
+"U10 - windspeed (10m) must be entered as m/s"
+msgstr "fetch = Distance parcourue sur l'eau par le vent\n"
+"U10 est la vitesse du vent (à 10m) et doit être en m/s"
+
+#: src/calculatorgui_impl.cpp:149
+msgid "Height_observer is the height of the observer\n"
+"Height_object is the height of the object"
+msgstr "Height_observer est la hauteur de l'observateur\n"
+"Height_object est la hauteur de l'objet"
+
+#: src/calculatorgui_impl.cpp:518
+msgid "Test"
+msgstr "Test"
+
+#: src/calculatorgui_impl.cpp:522
+msgid "Mouse"
+msgstr "Souris"
+
+#: src/calculatorgui_impl.cpp:526
+msgid "List"
+msgstr "Liste"
+
+#: src/calculatorgui_impl.cpp:584
+msgid "Error"
+msgstr "Erreur"
+
+#: src/calculatorgui_impl.cpp:591
+msgid "Error:Missing parenthesis"
+msgstr "Erreur : Parenthèse manquante"
+
+#: src/calculatorgui_impl.cpp:678
+msgid "Calculator INPUT:"
+msgstr "Entrées des données :"
+
+#: src/calculatorgui_impl.cpp:678
+msgid " Calculator output:"
+msgstr " Sortie des données :"
+
+#: src/calculatorgui.cpp:33 src/calculatorgui.cpp:934
+msgid "Calculate"
+msgstr "Calculer"
+
+#: src/calculatorgui.cpp:45
+msgid "Function"
+msgstr "Fonction"
+
+#: src/calculatorgui.cpp:48
+msgid "History"
+msgstr "Historique"
+
+#: src/calculatorgui.cpp:51
+msgid "Help"
+msgstr "Aide"
+
+#: src/calculatorgui.cpp:128
+msgid "Display Accuracy"
+msgstr "Précision d'affichage"
+
+#: src/calculatorgui.cpp:130
+msgid "Three decimal places (Default)"
+msgstr "Trois décimales (Par défaut)"
+
+#: src/calculatorgui.cpp:130
+msgid "Precise"
+msgstr "Précis"
+
+#: src/calculatorgui.cpp:130
+msgid "Precise, thousands separator"
+msgstr "Précis, séparateur de milliers"
+
+#: src/calculatorgui.cpp:130
+msgid "Succinct"
+msgstr "Succinct"
+
+#: src/calculatorgui.cpp:130
+msgid "Succinct, thousands separator"
+msgstr "Succinct, séparateur de milliers"
+
+#: src/calculatorgui.cpp:130
+msgid "Scientific"
+msgstr "Scientifique"
+
+#: src/calculatorgui.cpp:130
+msgid "Humanised"
+msgstr "Non scientifique"
+
+#: src/calculatorgui.cpp:140
+msgid "Show/Hide Buttons"
+msgstr "Voir/Cacher les boutons"
+
+#: src/calculatorgui.cpp:142
+msgid "Help Button"
+msgstr "Bouton \"Aide\""
+
+#: src/calculatorgui.cpp:144
+msgid "Show/Hide help button (you can always type \"help\" from input window)."
+msgstr "Voir/cacher le bouton d'aide (Vous pourrez toujours taper \"aide\" depuis une fenêtre d'entrée)."
+
+#: src/calculatorgui.cpp:148
+msgid "Calculate Button"
+msgstr "Bouton \"Calculer\""
+
+#: src/calculatorgui.cpp:150
+msgid "Show/Hide Calculate button (you can always press enter at the end of input)."
+msgstr "Voir/Cacher le bouton \"Calculer\" (Vous pouvez toujours presser sur la touche \"Enter\" à la fin de la dernière entrée)."
+
+#: src/calculatorgui.cpp:154
+msgid "Function Button"
+msgstr "Bouton \"Fonction\""
+
+#: src/calculatorgui.cpp:162
+msgid "History Settings"
+msgstr "Réglage de l'historique"
+
+#: src/calculatorgui.cpp:169
+msgid "Max Results"
+msgstr "Résultats maxi"
+
+#: src/calculatorgui.cpp:171
+msgid "More results use up more memory. Memory is only allocated if required (e.g. if number is 30000, corresponding memory will only be used after this many calculations)."
+msgstr "Plus de résultats mobilise plus de mémoire. La mémoire est allouée seulement si nécessaire. (Par exemple, si le nombre est supérieur à 30000, la mémoire correspondante sera utilisée après ces nombreux calculs)."
+
+#: src/calculatorgui.cpp:176
+msgid "More results use more memory. Memory will be cleared if Max Results is reached. NB variables are kept"
+msgstr "Plus de résultats nécessite plus de mémoire. La mémoire doit être vidée si plus de résultats sont obtenus. NB : les variables sont gardées"
+
+#: src/calculatorgui.cpp:183
+msgid "Opacity"
+msgstr "Opacité"
+
+#: src/calculatorgui.cpp:194
+msgid "Show History Window"
+msgstr "Voir la fenêtre de l'historique"
+
+#: src/calculatorgui.cpp:196
+msgid "Show/Hide history"
+msgstr "Voir/cacher l'historique"
+
+#: src/calculatorgui.cpp:204
+msgid "Other"
+msgstr "Autre"
+
+#: src/calculatorgui.cpp:206
+msgid "Log results to opencpn"
+msgstr "Résultats dans les log d'OpenCPN"
+
+#: src/calculatorgui.cpp:207
+msgid "Log calculator results in OpenCPN log file"
+msgstr "Les log des résultats de la calculatrice sont dans dans les log d'OpenCPN"
+
+#: src/calculatorgui.cpp:251
+msgid "Calculator Plugin for OpenCPN by SaltyPaws aka Walbert Schulpen/Updated by Mike Rossiter(Rasbats)\n"
+"=======================================\n\n"
+"This is a light weight yet powerful calculator plugin for OpenCPN. Would you like to know your hull speed? \n\n"
+"Key features are:\n"
+"* Storing results in variables\n"
+"* Shows historic calculations\n"
+"* Full complement of nautical functions\n"
+"* Screen footprint can be optimised & minimised as required\n\n"
+"Adding formulas is easy. If your favorite nautical equation is missing, please let me know your equation via flyspray, and I will add it.\n\n"
+"Many formulas are based on U.S. units. Formulas use a 'base' unit, for example US Gallons per Minute. Conversion factors are used to display the result in other units. Using other units the result may not be exactly as expected. For example \"Convert Flowrate\": 10 m3/s converts to 599999.999365987 liter per minute, not 600000 exactly, using the 'precise' accuracy.\n\n"
+"Help\n"
+"=========\n"
+"Type help in the calculator to get these instructions.\n\n"
+"Examples of expression that work in the calculator are: (comments are in brackets, some results depend on other example calculations):\n"
+"=========\n"
+"Hull speed:\n"
+"\tLWL=48\t\t\t(water line lenght in feet)\n"
+"\tvhull=1.34*LWL^(1/2)\t(hull speed in knots)\n\n"
+"Conversions:\n"
+"\tftm=0.3048\t\t(feet to meters)\n"
+"\tkm_to_nm=0.539957\t\t(Kilometers to nautical Mile)\n"
+"\tftm*LWL\t\t\t(waterline length in meters)\n\n"
+"Distance to horizon\n"
+"\tR=6378.1*1000\t\t(Radius of the earth in m)\n"
+"\tH=2.5\t\t\t(Height of the eye above sea-level in m)\n"
+"\td = R * acos(R/(R + h))\t(Distance to horizon in m)   \n"
+"\tans*km_to_nm\t\t(Distance to horizon in nm)\n\n"
+"Distance to lighthouse\n"
+"\tH1=200\t\t\t(height of lighthouse in m)\n"
+"\td1 = R*acos(R/(R + H1))\t(Distance to horizon in m)\n"
+"\tdistance=d1+d\t\t(visibility range of lighthouse in m)\n\n"
+"Built-in functions\n\n"
+"The following table gives an overview of the functions supported by the default implementation. It lists the function names, the number of arguments and a brief description.\n"
+"Name \tArgc. \tExplanation\n"
+"sin \t1 \tsine function\n"
+"cos \t1 \tcosine function\n"
+"tan \t1 \ttangens function\n"
+"asin \t1 \tarcus sine function\n"
+"acos \t1 \tarcus cosine function\n"
+"atan \t1 \tarcus tangens function\n"
+"sinh \t1 \thyperbolic sine function\n"
+"cosh \t1 \thyperbolic cosine\n"
+"tanh \t1 \thyperbolic tangens function\n"
+"asinh \t1 \thyperbolic arcus sine function\n"
+"acosh \t1 \thyperbolic arcus tangens function\n"
+"atanh \t1 \thyperbolic arcur tangens function\n"
+"log2 \t1 \tlogarithm to the base 2\n"
+"log10 \t1 \tlogarithm to the base 10\n"
+"log \t1 \tlogarithm to the base 10\n"
+"ln \t1 \tlogarithm to base e (2.71828...)\n"
+"exp \t1 \te raised to the power of x\n"
+"sqrt \t1 \tsquare root of a value\n"
+"sign \t1 \tsign function -1 if x<0; 1 if x>0\n"
+"rint \t1 \tround to nearest integer\n"
+"abs \t1 \tabsolute value\n"
+"min \tvar. \tmin of all arguments\n"
+"max \tvar. \tmax of all arguments\n"
+"sum \tvar. \tsum of all arguments\n"
+"avg \tvar. \tmean value of all arguments\n\n\n"
+"Built-in binary operators\n\n"
+"The following table lists the default binary operators supported by the parser.\n"
+"Operator \t\tMeaning \t\t\t\tPriority\n"
+"= \t\tassignment \t\t\t-1\n"
+"&& \t\tlogical and \t\t\t1\n"
+"|| \t\tlogical or\t \t\t\t2\n"
+"<= \t\tless or equal \t\t\t4\n"
+">= \t\tgreater or equal \t\t\t4\n"
+"!= \t\tnot equal \t\t\t\t4\n"
+"== \t\tequal \t\t\t\t4\n"
+"> \t\tgreater than \t\t\t4\n"
+"< \t\tless than \t\t\t\t4\n"
+"+ \t\taddition \t\t\t\t5\n"
+"- \t\tsubtraction \t\t\t5\n"
+"* \t\tmultiplication \t\t\t6\n"
+"/ \t\tdivision \t\t\t\t6\n"
+"^ \t\traise x to the power of y \t\t7\n"
+"*The assignment operator is special since it changes one of its arguments and can only by applied to variables.\n"
+"Other operators\n\n"
+"muParser has built in support for the if then else operator. It uses lazy evaluation in order to make sure only the necessary branch of the expression is evaluated.\n"
+"Operator \tMeaning \tRemarks\n"
+"?: \tif then else operator \tC++ style syntax\n"
+" \n"
+"Variables:\n"
+"\tpi, e\n"
+"\tans is the result of the previous calulation\n"
+"\tdtr is the conversion factor from degrees to radians\t\t\n"
+"\tyou can define your own variables (e.g. myvariable=10/8*cos(dtr*90) or yourvariable=ans)\n"
+"\tclear removes results in the history, but leaves your defined variables in tact\n\n"
+"User Interface - type these commands in the command window:\n"
+"\thistory - Toggle the history panel\n"
+"\tshowhelp - Show/Hide the Help button\n"
+"\tshowcalculate - Show/Hide the Calculate button\n"
+"\tshowhistory - Show/Hide the history toggle\n"
+"\thelp - show the help menu\n\n"
+"Settings/Plugins/Preferences:\n"
+"\tShow/Hide Function, Calculate and Help buttons\n"
+"\tHistory Settings: max Results -this is the number of results that will be stored in the history pulldown. The history pulldown will contain five times this value\n"
+"\tLog to opencpn: Enable/Disable logging of results to opencpn logfile.\n\n"
+"Calculate Button:\n"
+"\tEnter the expression in the input box: e.g. 4+2. Do NOT use the = sign. \"Enter\" or press \"Calculate\".\n"
+"\tIf you are using \"History\" the results will appear there. If not the result will appear in the input box.\n"
+"\tIf you make a mistake, press \"C/CE\" to clear the input box.  "
+msgstr "Calculateur Plugin pour OpenCPN de SaltyPaws alias Walbert Schulpen/Mis à jour par Mike Rossiter (Rasbats)\n"
+" ======================================\n"
+"\n"
+"Il s'agit d'un complément, ayant les possibilités d'une calculatrice, léger et puissant pour OpenCPN. \n"
+"\n"
+"Un exemple : Vous pouvez connaître la vitesse de votre coque. \n"
+"\n"
+"Les principales fonctionnalités sont:\n"
+" * Stockage des résultats dans des variables\n"
+" * Affichage de l'historique des calculs\n"
+" * Présence d'un ensemble important de fonctions nautiques\n"
+" * La taille de la fenêtre peut agrandie ou réduite à la demande\n"
+"\n"
+"L'ajout de formules est simple. Si votre équation nautique préférée manque, merci de le faire savoir, via le flyspray, et ce sera ajouté.\n"
+"\n"
+"De nombreuses formules sont basées sur les unités américaines. Les formules utilisent une unité de base, par exemple le gallon américain par minute. Les facteurs de conversion sont utilisés pour afficher le résultat dans d'autres unités. En utilisant d'autres unités, le résultat peut ne pas être exactement comme prévu. Par exemple, \"Convert Débit\": 10 m3 / s, sera converti en 599999,999365987 litres par minute, et non 600 000 exactement, comme on doit s'y attendre.\n"
+"\n"
+"Aide\n"
+" ========= \n"
+" Tapez l’aide dans la calculatrice pour obtenir les instructions. \n"
+"\n"
+"Les exemples d’expression qui fonctionnent dans la calculatrice sont les suivants: (les commentaires sont entre crochets, certains résultats dépendent d’autres calculs à titre d’exemple): \n"
+" ======== \n"
+"Vitesse maximale: \n"
+"	LWL = 48			 (longueur de la conduite d’eau en pieds) \n"
+"	vhull = 1,34 * LWL ^ (1/2) 	 (vitesse de la coque en nœuds) \n"
+"\n"
+"Conversions: \n"
+"	ftm = 0,3048 		 (pieds en mètres) \n"
+"	km_to_nm = 0.539957 	 (kilomètres en milles marins) \n"
+"	ftm * LWL 		 (longueur de la ligne de flottaison en mètres) \n"
+"\n"
+"Distance à l'horizon \n"
+"	R = 6378.1 * 1000 		 (Rayon de la terre en m) \n"
+"	H = 2,5 			 (Hauteur de l’œil au-dessus du niveau de la mer en m) \n"
+"	d = R * acos (R / (R + h)) 	 (distance à l’horizon en m) \n"
+"	ans * km_to_nm 		 (distance à l’horizon en nm) \n"
+"\n"
+"Distance au phare \n"
+"	H1 = 200 		 (hauteur du phare en m) \n"
+" 	d1 = R * acos (R / (R + H1)) 	 (distance à l’horizon en m) \n"
+"	distance = d1 + d 		 (plage de visibilité du phare dans M) \n"
+"\n"
+"Fonctions intégrées \n"
+"\n"
+"Le tableau ci-dessous donne un aperçu des fonctions prises en charge par l’implémentation par défaut. Il répertorie les noms de fonction, le nombre d’arguments et une brève description. \n"
+"Nom 	Nbre d'Arg. 	Explication \n"
+"sin 	1 		fonction sinus \n"
+"cos 	1 		fonction cosinus \n"
+"tan 	1 		fonction tangente\n"
+"asin 	1 		fonction arc sinus \n"
+"acos 	1 		fonction arc cosinus\n"
+"atan	1 		fonction arc tangente \n"
+"sinh 	1 		fonction sinus hyperbolique \n"
+"cosh 	1 		fonction cosinus hyperbolique \n"
+"tanh 	1 		fonction tangente hyperbolique \n"
+"asinh 	1 		fonction arc  sinus hyperbolique \n"
+"acosh 	1 		fonction arc cosinus hyperbolique\n"
+"atanh 	1 		fonction arc tangente hyperbolique \n"
+"log 2	1		logarithm base 2 \n"
+"log10 	1 		logarithm base 10 \n"
+"log 	1 		logarithm base 10 \n"
+"ln 	1		logarithm base e (2.71828 ...) \n"
+"exp 	1 		Exp x \n"
+"sqrt 	1		Racine carrée d'une valeur \n"
+"sign 	1		sign fonction -1 si x <0; 1 si x> 0 \n"
+"rint 	1		Arrondi à l'entier le plus proche \n"
+"abs 	1		Valeur absolue\n"
+"min		min de tous les arguments \n"
+"max 		max de tous les arguments \n"
+"sum		Somme de tous les arguments \n"
+"avg 		Moyenne des valeurs de tous les arguments \n"
+"\n"
+"\n"
+"Opérateurs binaires intégrés \n"
+"\n"
+"Le tableau ci-dessous répertorie les opérateurs binaires par défaut pris en charge par l'analyseur. \n"
+"Opérateur 	Signification 	Priorité \n"
+" = 		Assignation 	-1\n"
+" && 		Et logique 	1 \n"
+" || 		Ou logique 	2 \n"
+" <= 		Inférieur ou égal 	4 \n"
+" >= 		Supérieur ou égal 	4 \n"
+" != 		Différent de 	4 \n"
+" == 		Egal à 		4 \n"
+" > 		Plus grand que 	4 \n"
+" < 		Plus petit que 	4 \n"
+" + 		Somme 		5 \n"
+" - 		Soustraction 	5 \n"
+" * 		Multiplication 	6 \n"
+" / 		Division 		6 \n"
+" ^ 		 x puissance y 	7 \n"
+" * L'opérateur d'affectation est spécial car il modifie l'un de ses arguments et ne peut être appliqué qu'à des variables. \n"
+"\n"
+"Autres opérateurs\n"
+"\n"
+"muParser dispose d’un support intégré pour l’opérateur \"if then else\". Il utilise une évaluation lente afin de s’assurer que seule la branche nécessaire de l’expression est évaluée. \n"
+"Operateur 	Signification 		Remarques \n"
+" ?: 		Opérateur \"if then else\" 	C ++ Syntaxe de style \n"
+"\n"
+"Variable: \n"
+"	pi, e \n"
+"	ans est le résultat du calcul précédent \n"
+" 	dtr est le facteur de conversion de degrés en radians 		\n"
+"	\n"
+" vous pouvez définir vos propres variables (par exemple, mavariable = 10/8 * cos (dtr * 90) ou votrevariable = ans) \n"
+" 	clear supprime les résultats de l'historique, mais conserve vos variables définies dans tact \n"
+"\n"
+"Interface utilisateur - tapez ces commandes dans la fenêtre de commande: \n"
+" 	Historique - Basculez le panneau de l'historique \n"
+" 	showhelp - Voir/Cacher le bouton Aide\n"
+"	showcalculate - Voir/masquer le bouton Calculer \n"
+"	Historique - Voir/masquer l'historique \n"
+"	Aide - Voir le menu d'aide \n"
+"\n"
+"Options / Compléments / Préférences : \n"
+"	Voir / Boutons \"Masquer les fonctions\", \"Calculer\" et \"Aide\" \n"
+"	Paramètres de l’historique: Résultats max. Il s’agit du nombre de résultats qui seront stockés dans l’affichage déroulant de l’historique. La liste déroulante d'historique contiendra cinq fois cette valeur. \n"
+" 	Connectez-vous à OpenCPN: Activez / Désactivez la journalisation des résultats dans le fichier journal ouvert. \n"
+"\n"
+"Bouton Calculer: \n"
+" 	Entrez l'expression dans la zone de saisie: par exemple. 4 + 2. N'utilisez PAS le signe =. Utilisez la touche \"Entrée\" ou appuyez sur \"Calculer\". \n"
+" 	Si vous utilisez \"Historique\", les résultats y apparaîtront. Sinon, le résultat apparaîtra dans la zone de saisie. \n"
+" 	Si vous faites une erreur, appuyez sur \"Calculer\" pour effacer la zone de saisie.  "
+
+#: src/calculatorgui.cpp:403 src/calculatorgui.cpp:498
+msgid "N"
+msgstr "N"
+
+#: src/calculatorgui.cpp:403 src/calculatorgui.cpp:498
+msgid "S"
+msgstr "S"
+
+#: src/calculatorgui.cpp:433 src/calculatorgui.cpp:535
+msgid "E"
+msgstr "E"
+
+#: src/calculatorgui.cpp:433 src/calculatorgui.cpp:535
+msgid "W"
+msgstr "O"
+
+#: src/calculatorgui.cpp:565
+msgid "Convert"
+msgstr "Convertir"
+
+#: src/calculatorgui.cpp:568 src/calculatorgui.cpp:937
+msgid "Close"
+msgstr "Fermer"
+
+#: src/calculatorgui.cpp:633
+msgid "Select Function Category"
+msgstr "Sélectionner la catégorie de la fonction"
+
+#: src/calculatorgui.cpp:645
+msgid "Select Function"
+msgstr "Sélectionner la fonction"
+
+#: src/calculatorgui.cpp:657
+msgid "Function And Description"
+msgstr "Fonction et description"
+
+#: src/calculatorgui.cpp:668
+msgid "ere"
+msgstr "ere"
+
+#: src/calculatorgui.cpp:672 src/calculatorgui.cpp:940
+msgid "Description"
+msgstr "Description"
+
+#: src/calculatorgui.cpp:686
+msgid "Input Parameters"
+msgstr "Paramètres d'entrée"
+
+#: src/calculatorgui.cpp:694 src/calculatorgui.cpp:715 src/calculatorgui.cpp:736
+#: src/calculatorgui.cpp:757 src/calculatorgui.cpp:778 src/calculatorgui.cpp:799
+#: src/calculatorgui.cpp:820 src/calculatorgui.cpp:841 src/calculatorgui.cpp:862
+#: src/calculatorgui.cpp:883
+msgid "Parameter"
+msgstr "Paramètre "
+
+#: src/calculatorgui.cpp:902
+msgid "Function Result Select Units"
+msgstr "Sélectionner les unités des résultats de la fonction"
+
+#: src/calculatorgui.cpp:913
+msgid "MyLabel"
+msgstr "MyLabel"
+
+#: src/functions.cpp:34
+msgid "Hull Speed"
+msgstr "Vitesse de la coque"
+
+#: src/functions.cpp:35
+msgid "Hull speed, sometimes referred to as displacement speed, can be thought of the speed at which the wavelength of the boats bow wave (in displacement mode) is equal to the boat length. As boat speed increases, the size of the bow wave increases, and therefore so does its wavelength. When hull speed is reached, a boat in pure displacement mode will appear trapped in a trough behind its very large bow wave."
+msgstr "La vitesse de la coque, parfois appelée vitesse de déplacement, peut être considérée comme la vitesse à laquelle la longueur d'onde du bateau est égale à la longueur du bateau. Comme la vitesse du bateau augmente, la taille de l'arc de l'onde augmente, et donc sa longueur d'onde aussi. Quand la vitesse de coque est atteinte, un bateau, en déplacement, pourra paraître pris au piège dans une trou derrière l'arc de sa vague."
+
+#: src/functions.cpp:36
+msgid "Design"
+msgstr "Apparence"
+
+#: src/functions.cpp:37 src/functions.cpp:64 src/functions.cpp:91
+#: src/functions.cpp:118 src/functions.cpp:145 src/functions.cpp:254
+msgid "http://www.bootkeyharbor.com/Formulas.htm"
+msgstr "http://www.bootkeyharbor.com/Formulas.htm"
+
+#: src/functions.cpp:61 src/functions.cpp:62
+msgid "Draft of vessel when heeled"
+msgstr "Tirant d'eau du bateau s'il gite"
+
+#: src/functions.cpp:63 src/functions.cpp:90 src/functions.cpp:117
+#: src/functions.cpp:144 src/functions.cpp:171 src/functions.cpp:198
+#: src/functions.cpp:334 src/functions.cpp:523 src/functions.cpp:550
+msgid "Navigation"
+msgstr "Navigation"
+
+#: src/functions.cpp:88 src/functions.cpp:89
+msgid "Speed of wind-driven current"
+msgstr "Vitesse du courant due au vent"
+
+#: src/functions.cpp:115
+msgid "Maximum Wavelength"
+msgstr "Longueur d’onde maximale"
+
+#: src/functions.cpp:116
+msgid "Maximum Wavelength = 1.5 x square root of fetch in nm"
+msgstr "Maximum Wavelength = 1.5 x square root of fetch in nm"
+
+#: src/functions.cpp:142
+msgid "Wave speed =f(period)"
+msgstr "Wave speed =f(period)"
+
+#: src/functions.cpp:143
+msgid "Wave speed = 3.03 x (wave period in seconds) NB output units need to be confirmed"
+msgstr "Vitesse de vague = 3.03 x (période d'onde en secondes). N.B. Les unités de sortie doivent être confirmées"
+
+#: src/functions.cpp:169
+msgid "Change in height of Tide"
+msgstr "Connaître la hauteur d'eau de la marée"
+
+#: src/functions.cpp:170
+msgid "Height is total change in tide height between high and low. The time ratio is time elapsed from the previous tide divided by the time difference between the two tides. (Similar to rule of 12)"
+msgstr "Le marnage est la différence entre les hauteurs d'eau des marées haute et basse. Le ratio de temps est la durée écoulée depuis la marée précédente divisée par la durée entre deux marées. (Similaire à la règle du 12ème)"
+
+#: src/functions.cpp:172
+msgid "Not very accurate - use official publications"
+msgstr "Pas très précis - utilisez les publications officielles"
+
+#: src/functions.cpp:196
+msgid "Fetch Modified Wilson"
+msgstr "Fetch modifié Wilson"
+
+#: src/functions.cpp:197
+msgid "Calculate Fetch as function of windspeed at 10 meters height (u10) and Fetch. The equation is based on the wilson equation (1965), but modified by Naoto for increased accuracy."
+msgstr "Calculer le Fetch en fonction du vent à 10 mètres de hauteur (U10). L'équation est basée sur l'équation de Saumon (1965), équation modifiée par Naoto pour une précision accrue."
+
+#: src/functions.cpp:199
+msgid "Naoto Ebuchi, Journal of oceanography, vol 55, pp 575 to 584, 1999"
+msgstr "Naoto Ebuchi, Journal of oceanography, vol 55, pp 575 to 584, 1999"
+
+#: src/functions.cpp:223
+msgid "Flow rate of leak in boat"
+msgstr "Débit d'entrée d'eau en cas d'avarie"
+
+#: src/functions.cpp:224
+msgid "Flow rate of leak in boat:\tQ = 7.48*A*(2gH)^0.5\n\n"
+"Q = volume per minute of water coming in\n"
+"A = area of hole\n"
+"H = height of water over hole, to bottom of the opening"
+msgstr "Débit d'entrée d'eau si avarie : Q = 7.48*A*(2gH)^0.5\n"
+"Q = Volume d'eau entrant par minute\n"
+"A = Surface du trou\n"
+"H = Hauteur entre le trou et la surface de l'eau"
+
+#: src/functions.cpp:225 src/functions.cpp:253 src/functions.cpp:280
+#: src/functions.cpp:307
+msgid "Safety"
+msgstr "Sécurité"
+
+#: src/functions.cpp:226
+msgid "https://www.boatdesign.net/threads/water-intrusion-formula.38075/"
+msgstr "https://www.boatdesign.net/threads/water-intrusion-formula.38075/"
+
+#: src/functions.cpp:251
+msgid "Patch over hole"
+msgstr "Pièce sur le trou"
+
+#: src/functions.cpp:252
+msgid "Patch or cover thickness to withstand water pressure (patch over hole):\n\n"
+"\tT = square root of:\t(48x (H) (L2))/ 1000)\n"
+"\tT = thickness of wood or plywood patch\n"
+"\tH = height of water above bottom of hole\n"
+"\tL = length of patch, longest distance between supports"
+msgstr "Epaisseur de la pièce sur le trou ou du couvercle pour résister à la pression de l'eau :\n"
+"T = Racine carrée de : (48x (H) (L2)) / 1000)\n"
+"T = Epaisseur de la plaque de bois ou de contreplaqué\n"
+"H = Hauteur de l'eau au-dessus du fond du trou\n"
+"L = longueur de la pièce, distance maximale entre les supports"
+
+#: src/functions.cpp:278
+msgid "Line Break strength (circumference)"
+msgstr "Force de rupture de la ligne (Circonférence)"
+
+#: src/functions.cpp:279
+msgid "Each type of line, natural fiber, synthetic and wire rope, have different breaking strengths and safe working loads. Natural breaking strength of manila line is the standard against which other lines are compared. Synthetic lines have been assigned comparison factors against which they are compared to manila line. The basic breaking strength factor for manila line is found by multiplying the square of the circumference of the line by 900 lbs. Knots and splices only have 50-60 percent of line strength.\n\n"
+"Line Material\tComparison Factor \n"
+"Nylon\t\t\t2.5\n"
+"Dacron\t\t\t2.0\n"
+"Polypropylene\t\t1.4\n"
+"Manilla \t\t\t1.0"
+msgstr "Chaque type de ligne, fibre naturelle, synthétique ou câble métallique, présente une résistance à la rupture et une charge de travail différente. La résistance à la rupture naturelle d'une ligne de manilles est la norme à laquelle les autres lignes sont comparées. Les lignes synthétiques ont été associées à des facteurs de comparaison auxquels sont comparées la ligne de manille. Le facteur de base de résistance à la rupture pour la ligne de manilles est obtenu en multipliant le carré de la circonférence de la ligne par 900 livres. Les nœuds et les épissures ont seulement 50 à 60% de la force de la ligne.. \n"
+"\n"
+"Lignes de référence 	 Facteur de comparaison \n"
+"Nylon		2.5\n"
+"Dacron		2.0\n"
+"Polypropylène	1.4\n"
+"Manille		1.0"
+
+#: src/functions.cpp:281 src/functions.cpp:308
+msgid "http://www.boatsafe.com/marlinespike/breaking.htm"
+msgstr "http://www.boatsafe.com/marlinespike/breaking.htm"
+
+#: src/functions.cpp:305
+msgid "Line Break strength (diameter)"
+msgstr "Force de rupture de la ligne (diamètre)"
+
+#: src/functions.cpp:306
+msgid "Each type of line, natural fiber, synthetic and wire rope, have different breaking strengths and safe working loads. Natural breaking strength of manila line is the standard against which other lines are compared. Synthetic lines have been assigned comparison factors against which they are compared to manila line. The basic breaking strength factor for manila line is found by multiplying the square of the circumference of the line by 900 lbs. Knots and splices only have 50-60 of line strenght.\n\n"
+"Line Material\tComparison Factor \n"
+"Nylon\t\t\t2.5\n"
+"Dacron\t\t\t2.0\n"
+"Polypropylene\t\t1.4\n"
+"Manilla \t\t\t1.0"
+msgstr "Chaque type de ligne, fibre naturelle, synthétique ou câble métallique, présente une résistance à la rupture et une charge de travail différente. La résistance à la rupture naturelle d'une ligne de manilles est la norme à laquelle les autres lignes sont comparées. Les lignes synthétiques ont été associées à des facteurs de comparaison auxquels sont comparées la ligne de manille. Le facteur de base de résistance à la rupture pour la ligne de manilles est obtenu en multipliant le carré de la circonférence de la ligne par 900 livres. Les noeuds et les épissures n’ont que 50 à 60 lignes. \n\n"
+"Lignes de référence \t Facteur de comparaison \n"
+"Nylon\t\t2.5\n"
+"Dacron\t\t2.0\n"
+"Polypropylène\t1.4\n"
+"Manille\t\t1.0"
+
+#: src/functions.cpp:332
+msgid "Velocity Made Good (angle)"
+msgstr "Vitesse made good (angle)"
+
+#: src/functions.cpp:333
+msgid "Velocity made good, or vmg, is a term in sailing, and specifically yacht racing, that refers to the component of a sailboats velocity that is in the direction of the true wind. The concept is useful in sailing, because a sailboat often cannot, or should not, sail directly to a mark to reach the mark as quickly as possible. Sailboats cannot sail directly upwind, and it is usually less than optimal, and sometimes dangerous, to sail directly downwind. Instead of sailing toward the mark, the helmsman chooses a point of sail that optimizes velocity made good."
+msgstr "Vitesse made good, ou vmg, est un terme utilisé en voile, et plus précisément en régate, qui fait référence à la composante de la vitesse d'un voilier qui se trouve dans la direction du vent réel. Le concept est utile en navigation, car un voilier ne peut souvent pas, ou ne devrait pas, se rendre directement à une marque pour l'atteindre le plus rapidement possible. Les voiliers ne peuvent pas naviguer face au vent et il est généralement moins optimal et parfois dangereux de naviguer directement au plus près du vent. Au lieu de naviguer vers la marque, le barreur choisit un point de navigation optimisant la vitesse."
+
+#: src/functions.cpp:335
+msgid "https://en.wikipedia.org/wiki/Velocity_made_good"
+msgstr "https://fr.wikipedia.org/wiki/Velocity_made_good"
+
+#: src/functions.cpp:386
+msgid "Wind Chill"
+msgstr "Indice de Refroidissement Eolien"
+
+#: src/functions.cpp:387
+msgid "In November 2001 Canada, U.S. and U.K. implemented a new wind chill index developed by scientists and medical experts on the Joint Action Group for Temperature Indices (JAG/TI). It is determined by iterating a model of skin temperature under various wind speeds and temperatures using standard engineering correlations of wind speed and heat transfer rate. Heat transfer was calculated for a bare face in wind, facing the wind, while walking into it at 1.4 metre per second (3.1mph). The model corrects the officially measured wind speed (at 10 meter height) to the wind speed at face height, assuming the person is in an open field. The results of this model may be approximated, to within one degree, from the following formula:"
+msgstr "En novembre 2001, le Canada, les États-Unis et le Royaume-Uni ont mis en place un nouvel indice de refroidissement éolien, mis au point par des scientifiques et des experts médicaux au sein du groupe d’action commune pour les indices de température (JAG / TI). Il est déterminé en itérant un modèle de température de la peau sous différentes vitesses de vent et températures en utilisant des corrélations techniques standard de la vitesse du vent et du taux de transfert de chaleur. Le transfert de chaleur a été calculé, pour un visage nu faisant face au vent, en y pénétrant à 1,4 mètre par seconde (3.1 mph). Le modèle corrige la vitesse du vent officiellement mesurée (à 10 mètres de hauteur) en fonction de la vitesse du vent à la hauteur du visage, en supposant que la personne se trouve dans un champ ouvert. Les résultats de ce modèle peuvent être approximés, à un degré près, par la formule suivante :"
+
+#: src/functions.cpp:388 src/functions.cpp:415 src/functions.cpp:442
+#: src/functions.cpp:469
+msgid "Weather"
+msgstr "Météo"
+
+#: src/functions.cpp:389
+msgid "http://en.wikipedia.org/wiki/Wind_chill, http://climate.weatheroffice.gc.ca/prods_servs/normals_documentation_e.html"
+msgstr "http://en.wikipedia.org/wiki/Wind_chill, http://climate.weatheroffice.gc.ca/prods_servs/normals_documentation_e.html"
+
+#: src/functions.cpp:413
+msgid "Humidex"
+msgstr "Humidex"
+
+#: src/functions.cpp:414
+msgid "Humidex is an index to indicate how hot or humid the weather feels to the average person. It is derived by combining temperature and humidity values into one number to reflect the perceived temperature. For example, a humidex of 40 means that the sensation of heat when the temperature is 30 degrees and the air is humid feels more or less the same as when the temperature is 40 degrees and the air is dry. "
+msgstr "Humidex est un indice qui indique à quel point le climat est chaud ou humide. Il est obtenu en combinant les valeurs de température et d'humidité en un seul chiffre afin de refléter la température perçue. Par exemple, un humidex de 40 signifie que la sensation de chaleur lorsque la température est de 30 degrés et l'air humide est plus ou moins la même sensation que lorsque la température est de 40 degrés et que l'air est sec. "
+
+#: src/functions.cpp:416
+msgid "http://climate.weather.gc.ca/glossary_e.html"
+msgstr "http://climate.weather.gc.ca/glossary_e.html"
+
+#: src/functions.cpp:440
+msgid "Beaufort to Wind Velocity"
+msgstr "Equiv : Vitesse du vent ---> Beaufort"
+
+#: src/functions.cpp:441 src/functions.cpp:468
+msgid "Beaufort scale was created in 1805 by Sir Francis Beaufort, British admiral and hydrographer. It describes wind speed based mainly on observed sea conditions."
+msgstr "L'échelle de Beaufort a été créée en 1805 par Sir Francis Beaufort, amiral britannique et hydrographe. Elle définit la vitesse du vent en se basant principalement sur les conditions de mer observées."
+
+#: src/functions.cpp:443 src/functions.cpp:470
+msgid "http://planetcalc.com/384/"
+msgstr "http://planetcalc.com/384/"
+
+#: src/functions.cpp:467
+msgid "Wind Velocity to Beaufort"
+msgstr "Equiv : Vitesse du vent ---> Beaufort"
+
+#: src/functions.cpp:494
+msgid "Pressure at depth"
+msgstr "Pression en profondeur"
+
+#: src/functions.cpp:495
+msgid "If a fluid is within a container then the depth of an object placed in that fluid can be measured. The deeper the object is placed in the fluid, the more pressure it experiences. This is because is the weight of the fluid above it. The more dense the fluid above it, the more pressure is exerted on the object that is submerged, due to the weight of the fluid. Density is function of salinity and water temperature. Below are average values.\n"
+"Density Sea Water = 1.035 kg/liter\n"
+"Density Fresh Water = 1.0 kg/liter"
+msgstr "Si un fluide se trouve dans un récipient, la profondeur d'un objet placé dans ce fluide peut être mesurée. Plus l'objet est placé profondément dans le fluide, plus il subit une pression. Ceci est dû au poids du fluide au dessus de lui. Plus le fluide au-dessus de lui est dense, plus la pression exercée sur l'objet immergé est importante en raison du poids du fluide. La densité est fonction de la salinité et de la température de l'eau. Ci-dessous, les valeurs moyennes : \n"
+"Densité eau de mer = 1.035 kg / litre \n"
+"Densité eau douce = 1.0 kg / litre"
+
+#: src/functions.cpp:496
+msgid "Diving"
+msgstr "Plongée"
+
+#: src/functions.cpp:497
+msgid "http://www.grc.nasa.gov/WWW/k-12/WindTunnel/Activities/fluid_pressure.html\n"
+"Saltypaws"
+msgstr "http://www.grc.nasa.gov/WWW/k-12/WindTunnel/Activities/fluid_pressure.html\n"
+"Saltypaws"
+
+#: src/functions.cpp:521
+msgid "Distance to horizon"
+msgstr "Distance à l'horizon"
+
+#: src/functions.cpp:522
+msgid "If the Earth is assumed to be a sphere with no atmosphere then the distance to the horizon can easily be calculated. (The Earths radius of curvature actually varies between the Equator and the Poles, so this formula isnt absolutely exact even assuming no refraction.) This formula assumes earth diameter of 12756.32 km."
+msgstr "Si on suppose que la Terre est une sphère sans atmosphère, alors la distance à l'horizon peut être facilement calculé. (Le rayon courbure de la Terre varie entre l'Équateur et les pôles, donc la formule n'est pas tout à fait exacte, même sans tenir compte de la réfraction) ; Cette formule suppose un diamètre terrestre de 12756,32 km."
+
+#: src/functions.cpp:524
+msgid "https://en.wikipedia.org/wiki/Horizon#Exact_formula_for_a_spherical_Earth"
+msgstr "https://en.wikipedia.org/wiki/Horizon#Exact_formula_for_a_spherical_Earth"
+
+#: src/functions.cpp:548
+msgid "Objects above horizon"
+msgstr "Objets au-dessus de l'horizon"
+
+#: src/functions.cpp:549
+msgid "To compute the greatest distance at which an observer can see the top of an object above the horizon, compute the distance to the horizon for a hypothetical observer on top of that object, and add it to the real observers distance to the horizon. This formula assumes earth diameter of 12 756.32 km."
+msgstr "Pour calculer la plus grande distance à laquelle un observateur peut voir le sommet d'un objet au-dessus de l'horizon, calculez la distance à l'horizon pour un observateur hypothétique au-dessus de cet objet et ajoutez-la à la distance réelle des observateurs à l'horizon. Cette formule suppose un diamètre de terre de 12 756,32 km."
+
+#: src/functions.cpp:551
+msgid "https://en.wikipedia.org/wiki/Horizon, Objects above horizon"
+msgstr "https://en.wikipedia.org/wiki/Horizon, Objects above horizon"
+
+#: src/functions.cpp:575 src/functions.cpp:576
+msgid "Convert Distance"
+msgstr "Convertir la distance"
+
+#: src/functions.cpp:577 src/functions.cpp:604 src/functions.cpp:631
+#: src/functions.cpp:658 src/functions.cpp:685 src/functions.cpp:712
+#: src/functions.cpp:740
+msgid "Conversions"
+msgstr "Conversions"
+
+#: src/functions.cpp:578 src/functions.cpp:605 src/functions.cpp:632
+#: src/functions.cpp:659 src/functions.cpp:686 src/functions.cpp:713
+msgid "Saltypaws"
+msgstr "Saltypaws"
+
+#: src/functions.cpp:602 src/functions.cpp:603
+msgid "Convert Temperature"
+msgstr "Convertir la température"
+
+#: src/functions.cpp:629 src/functions.cpp:630
+msgid "Convert Speed"
+msgstr "Convertir la vitesse"
+
+#: src/functions.cpp:656 src/functions.cpp:657
+msgid "Convert Pressure"
+msgstr "Convertir la pression"
+
+#: src/functions.cpp:683 src/functions.cpp:684
+msgid "Convert Angle"
+msgstr "Convertir l'angle"
+
+#: src/functions.cpp:710 src/functions.cpp:711
+msgid "Convert Flowrate"
+msgstr "Convertir le débit"
+
+#: src/functions.cpp:738
+msgid "Convert Degrees (All formats)"
+msgstr "Convertir les degrés (Tout formats)"
+
+#: src/functions.cpp:739
+msgid "Convert (All formats)"
+msgstr "Convertir (Tout formats)"
+
+#: src/functions.cpp:741
+msgid "Rasbats"
+msgstr "Rasbats"
+
